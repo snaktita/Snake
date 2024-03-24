@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95D102"
+    android:backgroundTint="#95D102"
+    android:orientation="vertical"
+    tools:context=".MainActivitY">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:src="@drawable/titlu" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="#000000"
+        android:text="start"
+        android:textColor="#95D102"
+        android:textColorHighlight="#100F0F" />
+
+    <Button
+        android:id="@+id/btn_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#101010"
+        android:text="clasament"
+        android:textColor="#95D102"
+        android:textColorHighlight="#000000" />
+
+
+</LinearLayout>
